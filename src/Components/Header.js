@@ -1,13 +1,15 @@
-import logo from '../assets/logo.png'
-import { faInstagram, faFacebookF } from "@fortawesome/free-brands-svg-icons"
+import icon from '../assets/icon.png';
+import logo from '../assets/logo.png';
+import { faInstagram, faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import NavBurger from './NavBurger';
-import NavMain from './NavMain'
+import NavMain from './NavMain';
 
 const Header = () => {
     return (
         <div className="header">
         <NavBurger/>
+        <img src={icon} className="iconHeader" alt="Revanove.fr"/>
         <img src={logo} className="logoHeader" alt="Revanove.fr"/>
         <NavMain/>
         <span className="socialNetworks">
