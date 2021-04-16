@@ -1,0 +1,70 @@
+.container{
+  margin: auto;
+  padding: 0 40px;
+  .header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logoHeader {
+    width: 200px;
+    height: 50px;
+  }
+  .socialNetworks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80px;
+    margin-top: 28px;
+  }
+  .iconsFacebook {
+    width: 25px;
+    height: 25px;
+    color: #86c1d7;
+  }
+  .iconsInstagram {
+    width: 30px;
+    height: 30px;
+    color: #86c1d7;
+  }
+  .nav {
+    margin-top: 49px;
+    color: #86c1d7;
+    width: 800px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: "Roboto";
+    font-weight: 300;
+  }
+  @media (max-width: 1024px) { 
+    .nav {
+        display: none;
+    }
+  }
+  .nav span {
+    cursor: pointer;
+  }
+  .nav span:hover {
+    border-bottom: #86c1d7 2px solid;
+  }
+  .boxSeparator {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .textSeparator {
+    text-transform: uppercase;
+    color: grey;
+    font-family: 'Roboto';
+    min-width: 140px;
+  }
+  .separator {
+    width: 100%;
+    border-bottom:1px solid #afafaf;
+  }
+}
+

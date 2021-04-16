@@ -1,0 +1,113 @@
+.containerForm {
+    width: 50%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    
+    form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .select{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .select1{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .radioBox{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+    .radio{
+        width:20px;
+        height:20px;
+    }
+    .select label{
+        font-family: 'Roboto';
+        font-size: 0.9rem;
+        color:#6e7b80;
+        margin: 4px 0 0 15px;
+    }
+    .textInput {
+        width: 47%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: #cccbc8 1px solid;
+        font-size: 0.9rem;
+        color:#6e7b80;
+        font-family: 'Roboto';
+        }
+        .textInput:focus {
+            outline: none;
+            color:#37b1e3;
+        }
+        .textInput1 {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: #cccbc8 1px solid;
+            font-size: 0.9rem;
+            color:#6e7b80;
+            font-family: 'Roboto';
+        }
+        .textInput1:focus {
+            outline: none;
+            color:#37b1e3;
+        }
+        .textInput2 {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 17px 0;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: #cccbc8 1px solid;
+            font-size: 0.9rem;
+            color:#6e7b80;
+            font-family: 'Roboto';
+        }
+        .textInput2:focus {
+            outline: none;
+            color:#37b1e3;
+        }
+        .buttonForm{
+            background-color: #86c1d7;
+            width: 50%;
+            height: 50px;
+            cursor: pointer;
+            border: none;
+            color: white;
+            font-size: 1rem;
+        }
+        .buttonForm:focus{
+            background-color: #4bafd3;
+            outline: none;
+        }
+        .buttonForm:hover{
+            background-color: #4bafd3;
+            outline: none;
+        }
+      
+}
+ @media (max-width: 1024px) {
+        .containerForm{
+            width: 100%;
+        }
+    }

@@ -1,0 +1,54 @@
+.containerSteps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    .boxSteps {
+        width: 230px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: justify;
+        flex-direction: row;
+        padding: 10px;
+    }
+    .numbersSteps{
+        font-family: 'Bebas';
+        font-size: 4rem;
+    } 
+    .colorPink {
+        color: #ff8196;
+    }
+    .colorPink2 {
+        color: #e462a3;
+    }
+    .colorPurple {
+        color: #928dde;
+    }
+    .colorBlue {
+        color: #37b1e3;
+    }
+    .titleSteps {
+        font-family: 'Roboto';
+        font-size: 1.7rem;
+        color: #6e7b80;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .textSteps {
+        font-family: 'Roboto';
+        font-size: 0.9rem;
+        color: #6e7b80;
+        margin-top: 20px;
+        line-height: 1rem;
+        margin-bottom: 50px;
+    }
+    .baselineSteps {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-family: 'Roboto';
+        color: #6e7b80;
+    }
+}
